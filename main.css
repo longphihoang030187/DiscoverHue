@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/*CSS phan menu */
+.header__navbar{
+    height: 80px;
+    background-image:linear-gradient(180deg, rgb(29, 76, 163), rgb(149, 45, 170));
+    width: 100%;
+    text-align: center;
+    position: relative;
+    
+}
+.list-left{
+    float: left;
+    margin-left: 15px;
+    height: inherit;
+}
+.list-right{
+    float: right;
+    margin-right: 10px; 
+    height: inherit;
+  
+}
+.header__navbar-list,
+.header__navbar-item{
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+    height: 100%;
+} 
+.header__navbar-item a{
+    text-decoration: none;
+    float: left;
+    font-size: 16px;
+    padding:  25px 10px;
+    font-weight: bold;
+    color:white;
+    display: block;
+    text-transform: uppercase; 
+}
+
+/*CSS Main contenst & banner & banner contents */
+
+#banner{
+    background-image: url("./img/center_banner.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 2%;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner__contents {
+    width: 90%;
+    top: 0%;
+    left:5%;
+    position: absolute;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 20px;  
+    z-index: 0;
+    opacity: 0.7 ;
+
+}
+.banner__text-heading{
+    font-size: 30px;
+    color:green;
+    font-weight: bold;
+    margin-bottom: 20px;
+    z-index: 1;
+    font-family: 'Great Vibes', cursive; /*su dung font google  */
+}
+.banner__text-description{
+    font-size: 17px;
+    font-weight: lighter;
+    color:rgb(115, 18, 180);
+}
+/*CSS phan banner text contents */
+
+.text__contents{
+    margin-top: 10px;
+    padding-left: 10px;
+    border-left: 10px solid rgb(85, 7, 109);
+}
+.text__contents .text-heading{
+    font-size: 30px;
+    color:black;
+    font-weight: bold; 
+    margin-bottom: 30px;
+    font-family: 'Great Vibes', cursive;
+}
+.text__contents .text-description{
+    font-size: 16px;
+    color: gray;
+    font-weight: lighter;
+    
+}
+
+/*CSS phan anh page huong dan */
+
+.container__image-item__column{
+    box-shadow: 5px 10px 8px 10px #888888;
+    margin-bottom: 30px;
+}
+
+.image__text-heading{
+    padding: 2px 30px;
+    text-align: center;
+    margin: 30px auto auto;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+    height: auto;
+    width: auto;
+    font-family: 'Great Vibes', cursive; /*CSS su dung google font */
+}
+.image____text-description{
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.4em;
+    color: gray;
+    margin-bottom: 15px;
+}
+/*CSS phan nut anh gioi thieu */
+.button_color{
+    width: 40%;
+    transition: scale(1.5);
+  
+}
+/*CSS button khi re chuot vao se zoom len */
+.button_color:hover{
+    transform: scale(1.1);
+}
+/*CSS khi re chuot vao anh se opacity thanh 0.8 */
+.container__TruongTien_Bridge img:hover{
+    opacity: 0.8;
+}
+.container__VongCanh_Hill img:hover{
+    opacity: 0.8;
+}
+
+.container__NgoMon_Palace img:hover{
+    opacity: 0.8;
+}
+.container__HueClamRice img:hover{
+    opacity: 0.8;
+}
+.container__ThienMu_Pagoda img:hover{
+    opacity: 0.8;
+}
+.container__Hue_festival img:hover{
+    opacity: 0.8;
+}
+/*CSS phan footer */
+#footer{
+    margin-top: 5%;
+    background-image: linear-gradient(180deg, rgb(19, 48, 163), rgb(148, 31, 199));
+
+}
+.footer__contents__column{
+    margin-top: 5%;
+    text-align: justify;
+}
+.footer__text-heading{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer__text-description{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 50;
+    margin-bottom: 10px;
+}
+.footer__text-link{
+    color: white;
+    font-size: 16px;
+    color: rgb(71, 153, 190);
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding-bottom: 10%;
+}

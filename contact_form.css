@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/*CSS phan menu */
+.header__navbar{
+    height: 80px;
+    background-image:linear-gradient(180deg, rgb(29, 76, 163), rgb(149, 45, 170));
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+.list-left{
+    float: left;
+    margin-left: 15px;
+    height: inherit;
+}
+.list-right{
+    float: right;
+    margin-right: 10px; 
+    height: inherit;
+  
+}
+.header__navbar-list,
+.header__navbar-item{
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+    height: 100%;
+} 
+.header__navbar-item a{
+    text-decoration: none;
+    float: left;
+    font-size: 16px;
+    padding:  25px 10px;
+    font-weight: bold;
+    color:white;
+    display: block;
+    text-transform: uppercase; 
+}
+
+/*CSS phan form contact us */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .Contact__form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+/*CSS phan footer */
+#footer{
+    margin-top: 5%;
+    background-image: linear-gradient(180deg, rgb(19, 48, 163), rgb(148, 31, 199));
+
+}
+.footer__contents__column{
+    margin-top: 5%;
+    text-align: justify;
+}
+.footer__text-heading{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.footer__text-description{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    font-weight: 50;
+    color:black;
+    margin-bottom: 10px;
+}
+.footer__text-link{
+    color: white;
+    font-size: 16px;
+    color: rgb(71, 153, 190);
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding-bottom: 10%;
+}
